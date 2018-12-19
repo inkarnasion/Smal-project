@@ -3,7 +3,7 @@ import java.awt.*;
 
 public class Main {
     /*
-     * Start App.
+     * Start App. Created by Todor Kamenov
      */
     public static void main(String[] args) {
         EventQueue.invokeLater(() -> {
