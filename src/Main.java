@@ -1,0 +1,21 @@
+import calculator_view.CalculatorView;
+import java.awt.*;
+
+public class Main {
+    /*
+     * Start App.
+     */
+    public static void main(String[] args) {
+        EventQueue.invokeLater(() -> {
+            try {
+                CalculatorView calculator = new CalculatorView();
+                calculator.getFrame().setVisible(true);
+
+            } catch (Exception e) {
+                e.printStackTrace();
+                System.out.println("Catch Exception!!!");
+            }
+        });
+    }
+
+}
